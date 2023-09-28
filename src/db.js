@@ -1,7 +1,7 @@
 import { createPool } from "mysql2/promise";
 
 export const pool = createPool({
-  host: "ec2-65-0-4-227.ap-south-1.compute.amazonaws.com",
+  host: "13.235.103.223",
   user: "prithvi",
   password: "password",
   database: "customersdb",
