@@ -1,7 +1,8 @@
 import { pool } from "../db.js";
 
 export const renderCustomers = async (req, res) => {
-  const [rows] = await pool.query("SELECT * FROM customer");
+  // const [rows] = await pool.query("SELECT * FROM customer");
+  const rows = [];
   res.render("customers", { customers: rows });
 };
 
